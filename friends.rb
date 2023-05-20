@@ -5,3 +5,9 @@ rdm_nums.each do |rdm_num|
     puts rdm_num
     end
 end
+
+rdm_nums.each do |rdm_num|
+    if rdm_num < 60
+        puts "#{rdm_num} is under 60"
+    end
+end
